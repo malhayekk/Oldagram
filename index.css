@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid lightgray 0.15rem;
+    padding: 1rem;
+}
+
+#logo{
+    max-width: 25%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+header .avatar{
+    margin-top: 0.5rem;
+}
+
+.icon{
+    width: 10%;
+    height: 10%;
+}
+
+.post-header{
+    display: flex;
+}
+
+.post-header .avatar{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.post-header div{
+    margin-top: 0.5rem;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+main img{
+    width: 100%;
+}
+
+.actions{
+    display: flex;
+    gap: 15px;
+    margin: 1rem;
+}
+
+.icon:hover{
+  transform: scale(1.2);
+}
+
+footer{
+    margin: 1rem;
+}
